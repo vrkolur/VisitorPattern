@@ -8,8 +8,8 @@ public class BronzeCreditCard implements  CreditCard{
         return "Bronze Credit Card";
     }
 
-    public void accept(OfferVisitor v){
-        v.visitBronzeCreditCard(this);
+    public void accept(OfferVisitor v, double cost){
+        v.visitBronzeCreditCard(this, cost);
     }
 
 }

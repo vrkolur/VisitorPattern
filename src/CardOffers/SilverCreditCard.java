@@ -8,7 +8,7 @@ public class SilverCreditCard implements CreditCard{
         return "Silver Credit Card";
     }
 
-    public void accept(OfferVisitor v) {
-        v.visitSilverCreditCard(this);
+    public void accept(OfferVisitor v, double cost) {
+        v.visitSilverCreditCard(this, cost);
     }
 }

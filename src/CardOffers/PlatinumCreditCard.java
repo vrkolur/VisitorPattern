@@ -8,7 +8,7 @@ public class PlatinumCreditCard implements CreditCard{
         return "Platinum Credit Card";
     }
 
-    public void accept(OfferVisitor v) {
-        v.visitPlatinumCreditCard(this);
+    public void accept(OfferVisitor v, double cost) {
+        v.visitPlatinumCreditCard(this, cost);
     }
 }

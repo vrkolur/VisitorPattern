@@ -4,6 +4,6 @@ import Offer.OfferVisitor;
 
 public interface CreditCard {
     String getName();
-    void accept(OfferVisitor v);
+    void accept(OfferVisitor v, double cost);
 
 }

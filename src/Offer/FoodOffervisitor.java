@@ -6,23 +6,28 @@ import CardOffers.PlatinumCreditCard;
 import CardOffers.SilverCreditCard;
 
 public class FoodOffervisitor implements  OfferVisitor{
+
     @Override
-    public void visitBronzeCreditCard(BronzeCreditCard bronzeCreditCard) {
-        System.out.println("Bronze Card Food");
+    public void visitBronzeCreditCard(BronzeCreditCard bronzeCreditCard, double cost) {
+        double discounted_cost = cost-cost * 0.01;
+        System.out.println("Bronze Card Food Price: " + discounted_cost);
     }
 
     @Override
-    public void visitSilverCreditCard(SilverCreditCard silverCreditCard) {
-        System.out.println("Silver Card Food");
+    public void visitSilverCreditCard(SilverCreditCard silverCreditCard,double cost) {
+        double discounted_cost = cost-cost * 0.05;
+        System.out.println("Silver Card Food Price: "+ discounted_cost);
     }
 
     @Override
-    public void visitGoldCreditCard(GoldCreditCard goldCreditCard) {
-        System.out.println("Gold Card Food");
+    public void visitGoldCreditCard(GoldCreditCard goldCreditCard, double cost) {
+        double discounted_cost = cost-cost * 0.1;
+        System.out.println("Gold Card Food Price: "+ discounted_cost);
     }
 
     @Override
-    public void visitPlatinumCreditCard(PlatinumCreditCard platinumCreditCard) {
-        System.out.println("Platinum Card Food");
+    public void visitPlatinumCreditCard(PlatinumCreditCard platinumCreditCard, double cost) {
+        double discounted_cost = cost-cost * 0.15;
+        System.out.println("Platinum Card Food Price: "+ discounted_cost);
     }
 }
