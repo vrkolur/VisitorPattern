@@ -5,10 +5,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Mars mars = new Mars();
-        Venus venus = new Venus();
-        Mercury mercury = new Mercury();
-        Saturn saturn = new Saturn();
+        Planet mars = new Mars();
+        Planet venus = new Venus();
+        Planet mercury = new Mercury();
+        Planet saturn = new Saturn();
         Explorer explorer = new LifeExplorer();
 
         List<Planet> planetsToBeVisited = new ArrayList<>();
@@ -31,6 +31,7 @@ public class Main {
 
         for (Planet planet: planetsToBeVisited) {
             planet.accept(explorer);
+//            explorer.visit(planet);
         }
 
     }
