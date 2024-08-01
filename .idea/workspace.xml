@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="722835a9-4603-46e0-89ef-25ef5e18da48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Visitor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardOffers/BronzeCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardOffers/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardOffers/GoldCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardOffers/OfferVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardOffers/PlatinumCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardOffers/SilverCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/Explorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/LifeExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/Mars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/Mercury.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/Saturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoubleDispatch/Venus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="722835a9-4603-46e0-89ef-25ef5e18da48" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +15,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
