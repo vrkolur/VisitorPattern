@@ -5,7 +5,7 @@ import CardOffers.GoldCreditCard;
 import CardOffers.PlatinumCreditCard;
 import CardOffers.SilverCreditCard;
 
-public class FoodOffervisitor implements  OfferVisitor{
+public class FoodOfferVisitor implements  OfferVisitor{
 
     @Override
     public void visitBronzeCreditCard(BronzeCreditCard bronzeCreditCard, double cost) {

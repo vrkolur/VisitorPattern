@@ -31,7 +31,6 @@ public class Main {
 
         for (Planet planet: planetsToBeVisited) {
             planet.accept(explorer);
-//            explorer.visit(planet);
         }
 
     }

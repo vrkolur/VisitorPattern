@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="722835a9-4603-46e0-89ef-25ef5e18da48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardOffers/BronzeCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardOffers/BronzeCreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardOffers/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardOffers/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardOffers/GoldCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardOffers/GoldCreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardOffers/PlatinumCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardOffers/PlatinumCreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CardOffers/SilverCreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardOffers/SilverCreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleDispatch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleDispatch/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Offer/FoodOffervisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer/FoodOffervisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Offer/GasOfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer/GasOfferVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Offer/OfferVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer/OfferVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Offer/FoodOffervisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Offer/FoodOfferVisitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "OfferImplementation",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/vrkolur/work/Java/Visitor/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;OfferImplementation&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/vrkolur/work/Java/Visitor/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />

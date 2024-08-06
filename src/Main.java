@@ -1,11 +1,12 @@
 import CardOffers.*;
-import Offer.FoodOffervisitor;
+import Offer.FoodOfferVisitor;
 import Offer.GasOfferVisitor;
 import Offer.OfferVisitor;
 
+// Here OfferVisitor is the actual Interface, the base class and both FoodOfferVisitor and
 public class Main {
     public static void main(String[] args) {
-        OfferVisitor foodVisitor = new FoodOffervisitor();
+        OfferVisitor foodVisitor = new FoodOfferVisitor();
         OfferVisitor gasVisitor = new GasOfferVisitor();
         CreditCard bronze = new BronzeCreditCard();
         CreditCard silver = new SilverCreditCard();
