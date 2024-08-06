@@ -9,6 +9,6 @@ public class PlatinumCreditCard implements CreditCard{
     }
 
     public void accept(OfferVisitor v, double cost) {
-        v.visitPlatinumCreditCard(this, cost);
+        v.visit(this, cost);
     }
 }

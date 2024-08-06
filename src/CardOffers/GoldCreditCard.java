@@ -9,6 +9,6 @@ public class GoldCreditCard implements CreditCard{
     }
 
     public void accept(OfferVisitor v, double cost){
-        v.visitGoldCreditCard(this, cost);
+        v.visit(this, cost);
     }
 }

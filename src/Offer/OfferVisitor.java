@@ -6,8 +6,11 @@ import CardOffers.PlatinumCreditCard;
 import CardOffers.SilverCreditCard;
 
 public interface OfferVisitor {
-    void visitBronzeCreditCard(BronzeCreditCard bronzeCreditCard, double cost);
-    void visitSilverCreditCard(SilverCreditCard silverCreditCard, double cost);
-    void visitGoldCreditCard(GoldCreditCard goldCreditCard, double cost);
-    void visitPlatinumCreditCard(PlatinumCreditCard platinumCreditCard, double cost);
+    void visit(BronzeCreditCard bronzeCreditCard, double cost);
+
+    void visit(SilverCreditCard silverCreditCard, double cost);
+
+    void visit(GoldCreditCard goldCreditCard, double cost);
+
+    void visit(PlatinumCreditCard platinumCreditCard, double cost);
 }

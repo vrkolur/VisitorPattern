@@ -9,7 +9,7 @@ public class BronzeCreditCard implements  CreditCard{
     }
 
     public void accept(OfferVisitor v, double cost){
-        v.visitBronzeCreditCard(this, cost);
+        v.visit(this, cost);
     }
 
 }

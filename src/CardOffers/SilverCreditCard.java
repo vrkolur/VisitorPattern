@@ -9,6 +9,6 @@ public class SilverCreditCard implements CreditCard{
     }
 
     public void accept(OfferVisitor v, double cost) {
-        v.visitSilverCreditCard(this, cost);
+        v.visit(this, cost);
     }
 }
